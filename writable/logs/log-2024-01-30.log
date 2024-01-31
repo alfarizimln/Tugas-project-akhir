@@ -1,0 +1,99 @@
+INFO - 2024-01-30 05:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 05:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 05:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 12:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 05:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 07:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 20:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 20:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 20:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 14:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 21:39:58 --> Undefined variable $d
+in APPPATH\Views\penjualan\v_penjualan.php on line 269.
+ 1 APPPATH\Views\penjualan\v_penjualan.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php', 269)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penjualan/v_penjualan', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(14): view('penjualan/v_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-30 21:42:42 --> Attempt to read property "idbarang" on array
+in APPPATH\Views\penjualan\v_penjualan.php on line 377.
+ 1 APPPATH\Views\penjualan\v_penjualan.php(377): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idbarang" on array', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php', 377)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penjualan/v_penjualan', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(14): view('penjualan/v_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-30 21:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 21:45:45 --> Undefined variable $d
+in APPPATH\Views\penjualan\v_penjualan.php on line 269.
+ 1 APPPATH\Views\penjualan\v_penjualan.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php', 269)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penjualan/v_penjualan', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(14): view('penjualan/v_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-30 21:46:13 --> Attempt to read property "idbarang" on array
+in APPPATH\Views\penjualan\v_penjualan.php on line 250.
+ 1 APPPATH\Views\penjualan\v_penjualan.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idbarang" on array', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php', 250)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penjualan/v_penjualan', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(14): view('penjualan/v_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-30 21:46:33 --> Attempt to read property "idbarang" on array
+in APPPATH\Views\penjualan\v_penjualan.php on line 250.
+ 1 APPPATH\Views\penjualan\v_penjualan.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idbarang" on array', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php', 250)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penjualan/v_penjualan', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(14): view('penjualan/v_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-30 21:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 21:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

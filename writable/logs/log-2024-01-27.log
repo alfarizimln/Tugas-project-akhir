@@ -1,0 +1,787 @@
+INFO - 2024-01-27 01:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 02:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 02:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-27 09:34:35 --> Undefined variable $data_pelanggan
+in APPPATH\Views\pembelian\v_pembelian.php on line 360.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_pelanggan', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 360)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-27 09:37:02 --> Undefined variable $data_tarif
+in APPPATH\Views\pembelian\v_pembelian.php on line 423.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(423): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_tarif', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 423)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 09:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 09:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-27 10:01:52 --> Undefined property: stdClass::$idsupplier
+in APPPATH\Views\pembelian\v_pembelian.php on line 434.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idsupplier', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 434)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-27 10:02:42 --> Undefined property: stdClass::$idsupplier
+in APPPATH\Views\pembelian\v_pembelian.php on line 457.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idsupplier', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 457)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 10:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 10:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 11:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 11:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 11:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 11:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 11:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 11:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 11:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 15:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 08:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 08:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 08:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 15:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 15:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 15:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 15:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 15:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 15:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 15:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 08:30:22 --> mysqli_sql_exception: Unknown column 'idbarangbeli' in 'field list' in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('select idbeli,i...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select idbeli,i...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select idbeli,i...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(10): CodeIgniter\Database\BaseConnection->query('select idbeli,i...')
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(12): App\Models\ModelPembelian->getPembelian()
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#10 {main}
+CRITICAL - 2024-01-27 08:30:23 --> Unknown column 'idbarangbeli' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\ModelPembelian.php(10): CodeIgniter\Database\BaseConnection->query('select idbeli,idsupplierbeli,namasupplier,idbarangbeli,namabarang,tanggal,jumlah,jumlah*hargabeli as total from beli join supplier on idsupplierbeli=idsupplier join barang
+        on idbarang=idbarangbeli')
+ 2 APPPATH\Controllers\Pembelian.php(12): App\Models\ModelPembelian->getPembelian()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-27 15:31:20 --> Undefined array key "namasupplier"
+in APPPATH\Views\pembelian\v_pembelian.php on line 103.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namasupplier"', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-27 15:33:40 --> Undefined array key "idbarangbeli"
+in APPPATH\Views\pembelian\v_pembelian.php on line 118.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idbarangbeli"', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 15:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-27 15:34:13 --> Undefined array key "idbarangbeli"
+in APPPATH\Views\pembelian\v_pembelian.php on line 118.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idbarangbeli"', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 15:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 15:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-27 16:14:18 --> Undefined array key "namasupplier"
+in APPPATH\Views\pembelian\v_pembelian.php on line 103.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namasupplier"', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+ERROR - 2024-01-27 09:14:39 --> mysqli_sql_exception: Unknown column 'idbarangbeli' in 'field list' in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('select idbeli,i...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select idbeli,i...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select idbeli,i...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(10): CodeIgniter\Database\BaseConnection->query('select idbeli,i...')
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(12): App\Models\ModelPembelian->getPembelian()
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#10 {main}
+CRITICAL - 2024-01-27 09:14:39 --> Unknown column 'idbarangbeli' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\ModelPembelian.php(10): CodeIgniter\Database\BaseConnection->query('select idbeli,idsupplierbeli,namasupplier,idbarangbeli,namabarang,tanggal,jumlah,jumlah*hargabeli as total from beli join supplier on idsupplierbeli=idsupplier join barang
+        on idbarang=idbarangbeli')
+ 2 APPPATH\Controllers\Pembelian.php(12): App\Models\ModelPembelian->getPembelian()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 16:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 09:21:31 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(29): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 09:21:31 --> Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`, `total`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:, :total:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(29): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 16:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 16:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 09:23:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(29): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 09:23:12 --> Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`, `total`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:, :total:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(29): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 16:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 16:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-27 19:10:21 --> Undefined array key "total"
+in APPPATH\Views\pembelian\v_pembelian.php on line 115.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-27 19:13:08 --> Undefined array key "idsupplierbeli"
+in APPPATH\Views\pembelian\v_pembelian.php on line 103.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsupplierbeli"', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-27 19:13:50 --> Undefined array key "idsupplierbeli"
+in APPPATH\Views\pembelian\v_pembelian.php on line 120.
+ 1 APPPATH\Views\pembelian\v_pembelian.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsupplierbeli"', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\pembelian\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pembelian/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Pembelian.php(15): view('pembelian/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 19:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 12:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 12:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 12:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 12:17:42 --> mysqli_sql_exception: Unknown column 'total' in 'field list' in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(29): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 12:17:42 --> Unknown column 'total' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`, `total`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:, :total:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(29): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 19:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 12:19:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 12:19:08 --> Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 19:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 12:20:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 12:20:44 --> Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+ERROR - 2024-01-27 12:21:26 --> mysqli_sql_exception: Duplicate entry 'PM0001' for key 'PRIMARY' in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 12:21:26 --> Duplicate entry 'PM0001' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 19:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 12:25:47 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 12:25:47 --> Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 19:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 12:33:23 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 12:33:23 --> Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 19:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 12:45:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 12:45:10 --> Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(28): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 19:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 19:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-27 20:02:12 --> Undefined array key "idbarangjual"
+in APPPATH\Views\penjualan\v_penjualan.php on line 103.
+ 1 APPPATH\Views\penjualan\v_penjualan.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idbarangjual"', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penjualan/v_penjualan', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(14): view('penjualan/v_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+CRITICAL - 2024-01-27 20:02:57 --> Undefined array key "jumlah"
+in APPPATH\Views\penjualan\v_penjualan.php on line 109.
+ 1 APPPATH\Views\penjualan\v_penjualan.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php', 109)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\app\\Views\\penjualan\\v_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penjualan/v_penjualan', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(14): view('penjualan/v_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 20:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 13:04:25 --> mysqli_sql_exception: Unknown column 'idbeli' in 'field list' in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ju...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ju...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ju...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ju...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPenjualan.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Penjualan.php(28): App\Models\ModelPenjualan->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Penjualan->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 13:04:25 --> Unknown column 'idbeli' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jual` (`idbeli`, `idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`, `total`) VALUES (:idbeli:, :idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:, :total:)', [...], false)
+ 2 APPPATH\Models\ModelPenjualan.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Penjualan.php(28): App\Models\ModelPenjualan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 20:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 13:07:12 --> mysqli_sql_exception: Duplicate entry 'PJ0002' for key 'PRIMARY' in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ju...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ju...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ju...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ju...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPenjualan.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Penjualan.php(26): App\Models\ModelPenjualan->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Penjualan->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 13:07:12 --> Duplicate entry 'PJ0002' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jual` (`idjual`, `idbarangjual`, `tanggal`, `jumlahjual`) VALUES (:idjual:, :idbarangjual:, :tanggal:, :jumlahjual:)', [...], false)
+ 2 APPPATH\Models\ModelPenjualan.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Penjualan.php(26): App\Models\ModelPenjualan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 20:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 13:11:17 --> mysqli_sql_exception: Duplicate entry 'PJ0003' for key 'PRIMARY' in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ju...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ju...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ju...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ju...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPenjualan.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Penjualan.php(26): App\Models\ModelPenjualan->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Penjualan->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 13:11:17 --> Duplicate entry 'PJ0003' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jual` (`idjual`, `idbarangjual`, `tanggal`, `jumlahjual`) VALUES (:idjual:, :idbarangjual:, :tanggal:, :jumlahjual:)', [...], false)
+ 2 APPPATH\Models\ModelPenjualan.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Penjualan.php(26): App\Models\ModelPenjualan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 20:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-27 13:36:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Penjualan.php(44): CodeIgniter\Model->__call('updatePenjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Penjualan->update()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 20:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 13:45:20 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_2` FOREIGN KEY (`idbarangbeli`) REFERENCES `barang` (`idbarang`) ON UPDATE CASCADE) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ba...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelBarang.php(19): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Barang.php(49): App\Models\ModelBarang->deleteBarang('B0002')
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Barang->delete()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 13:45:20 --> Cannot delete or update a parent row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_2` FOREIGN KEY (`idbarangbeli`) REFERENCES `barang` (`idbarang`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `barang`
+WHERE `idbarang` = :idbarang:', [...], false)
+ 2 APPPATH\Models\ModelBarang.php(19): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Barang.php(49): App\Models\ModelBarang->deleteBarang('B0002')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Barang->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 20:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 13:46:09 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket`.`jual`, CONSTRAINT `jual_ibfk_1` FOREIGN KEY (`idbarangjual`) REFERENCES `barang` (`idbarang`)) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ba...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelBarang.php(19): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Barang.php(49): App\Models\ModelBarang->deleteBarang('B0002')
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Barang->delete()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 13:46:09 --> Cannot delete or update a parent row: a foreign key constraint fails (`minimarket`.`jual`, CONSTRAINT `jual_ibfk_1` FOREIGN KEY (`idbarangjual`) REFERENCES `barang` (`idbarang`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `barang`
+WHERE `idbarang` = :idbarang:', [...], false)
+ 2 APPPATH\Models\ModelBarang.php(19): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Barang.php(49): App\Models\ModelBarang->deleteBarang('B0002')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Barang->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 20:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 13:46:21 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`minimarket`.`jual`, CONSTRAINT `jual_ibfk_1` FOREIGN KEY (`idbarangjual`) REFERENCES `barang` (`idbarang`)) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ba...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelBarang.php(19): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Barang.php(49): App\Models\ModelBarang->deleteBarang('B0002')
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Barang->delete()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 13:46:21 --> Cannot delete or update a parent row: a foreign key constraint fails (`minimarket`.`jual`, CONSTRAINT `jual_ibfk_1` FOREIGN KEY (`idbarangjual`) REFERENCES `barang` (`idbarang`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `barang`
+WHERE `idbarang` = :idbarang:', [...], false)
+ 2 APPPATH\Models\ModelBarang.php(19): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Barang.php(49): App\Models\ModelBarang->deleteBarang('B0002')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Barang->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 20:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-27 13:52:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `be...', 0)
+#1 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\Semester 5\Web 2\Minimarket\app\Controllers\Pembelian.php(27): App\Models\ModelPembelian->insertData(Array)
+#6 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+#7 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 D:\Kuliah\Semester 5\Web 2\Minimarket\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 5\Web 2\Minimarket\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 5\Web 2\Minimarket\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2024-01-27 13:52:51 --> Cannot add or update a child row: a foreign key constraint fails (`minimarket`.`beli`, CONSTRAINT `beli_ibfk_1` FOREIGN KEY (`idsupplierbeli`) REFERENCES `supplier` (`idsupplier`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `beli` (`idsupplierbeli`, `idbarangbeli`, `tanggal`, `jumlah`) VALUES (:idsupplierbeli:, :idbarangbeli:, :tanggal:, :jumlah:)', [...], false)
+ 2 APPPATH\Models\ModelPembelian.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pembelian.php(27): App\Models\ModelPembelian->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pembelian->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 5\\Web 2\\Minimarket\\public\\index.php')
+INFO - 2024-01-27 20:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 20:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 21:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 21:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 21:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 21:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-27 21:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
